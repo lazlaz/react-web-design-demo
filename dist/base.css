@@ -1,0 +1,559 @@
+/*所有构件的默认容器*/
+.hk-component-container {
+  display: inline-block;
+}
+.hk-base-grid-Grid-hiddenColumn {
+  display: none;
+}
+.hk-base-grid-Grid-antTableSquence {
+  text-align: center !important;
+}
+/*.grid {
+  :global {
+    .ant-table-thead>tr>th,
+    .ant-table-tbody>tr>td,
+    .ant-table-thead>tr.ant-table-row-hover>td,
+    .ant-table-tbody>tr.ant-table-row-hover>td,
+    .ant-table-thead>tr:hover>td,
+    .ant-table-tbody>tr:hover>td {
+      background-color: transparent;
+      color: #fff;
+    }
+    .ant-table-thead>tr>th {
+      border-bottom-color: rgba(255, 255, 255, .5);
+    }
+    .ant-table-tbody>tr>td {
+      border-bottom-color: transparent;
+    }
+    .ant-pagination-item a {
+    	color: #fff;
+    }
+    .ant-pagination-item {
+    	border-radius: 0;
+    }
+    .ant-pagination-item.ant-pagination-item-active a {
+    	color: #666;
+    }
+    .ant-pagination-prev a, .ant-pagination-next a {
+    	color: #fff;
+    }
+    .ant-select-selection {
+    	border-radius: 0;
+    }
+    .ant-pagination-options-quick-jumper input {
+    	border-radius: 0;
+    }
+    .ant-pagination {
+    	color: #fff;
+    	padding-right: 8px;
+    }
+  }
+}*/
+.hk-editColumn-editable-cell {
+  position: relative;
+}
+.hk-editColumn-editable-cell-input {
+  padding: 4px 8px 4px 11px;
+}
+.hk-editColumn-editable-cell-text-wrapper {
+  padding: 6px 12px 6px 1px;
+  cursor: pointer;
+}
+.hk-editColumn-editable-cell-text-wrapper:hover {
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+  padding: 5px 11px 5px 0px;
+}
+.hk-editColumn-editable-cell-text-wrapper-none {
+  padding: 16px 12px 17px 1px;
+  cursor: pointer;
+}
+.hk-editColumn-editable-cell-text-wrapper-none:hover {
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+  padding: 15px 11px 16px 0px;
+}
+.hk-editColumn-editable-cell-text-wrapper-select {
+  padding: 6px 40px 6px 1px;
+  cursor: pointer;
+}
+.hk-editColumn-editable-cell-text-wrapper-select:hover {
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+  padding: 5px 39px 5px 0px;
+}
+.hk-editColumn-editable-add-btn {
+  margin-bottom: 8px;
+}
+.hk-editColumn-center {
+  text-align: center;
+}
+.hk-editColumn-editable-cell-text-wrapper-dirty {
+  height: 0px;
+  width: 0px;
+  border-right: 5px solid transparent;
+  border-top: 5px solid red;
+  float: left;
+}
+.hk-select-select .ant-select-dropdown-menu-item {
+  height: 32px;
+}
+.hk-fixedHeightColumn-tooltip {
+  padding-top: 0px;
+}
+.hk-fixedHeightColumn-tooltip .ant-tooltip-inner {
+  background-color: #ffffff;
+  color: rgba(0, 0, 0, 0.65);
+}
+.hk-fixedHeightColumn-tooltip .ant-tooltip-arrow {
+  border-width: 0px;
+}
+.hk-fixedHeightColumn-tooltip {
+  padding-top: 0px;
+}
+.hk-fixedHeightColumn-tooltip .ant-tooltip-inner {
+  background-color: #ffffff;
+  color: rgba(0, 0, 0, 0.65);
+}
+.hk-fixedHeightColumn-tooltip .ant-tooltip-arrow {
+  border-width: 0px;
+}
+.hk-tree-myListItem:hover {
+  background: #f5f5f5;
+  cursor: pointer;
+}
+.hk-base-grid-Grid-hiddenColumn {
+  display: none;
+}
+.hk-base-grid-Grid-antTableSquence {
+  border-right: 1px solid #e8e8e8;
+  background: #fafafa;
+  text-align: center !important;
+}
+/*.grid {
+  :global {
+    .ant-table-thead>tr>th,
+    .ant-table-tbody>tr>td,
+    .ant-table-thead>tr.ant-table-row-hover>td,
+    .ant-table-tbody>tr.ant-table-row-hover>td,
+    .ant-table-thead>tr:hover>td,
+    .ant-table-tbody>tr:hover>td {
+      background-color: transparent;
+      color: #fff;
+    }
+    .ant-table-thead>tr>th {
+      border-bottom-color: rgba(255, 255, 255, .5);
+    }
+    .ant-table-tbody>tr>td {
+      border-bottom-color: transparent;
+    }
+    .ant-pagination-item a {
+    	color: #fff;
+    }
+    .ant-pagination-item {
+    	border-radius: 0;
+    }
+    .ant-pagination-item.ant-pagination-item-active a {
+    	color: #666;
+    }
+    .ant-pagination-prev a, .ant-pagination-next a {
+    	color: #fff;
+    }
+    .ant-select-selection {
+    	border-radius: 0;
+    }
+    .ant-pagination-options-quick-jumper input {
+    	border-radius: 0;
+    }
+    .ant-pagination {
+    	color: #fff;
+    	padding-right: 8px;
+    }
+  }
+}*/
+.hk-editGridTreeColumn-editable-cell {
+  position: relative;
+  display: inline;
+}
+.hk-editGridTreeColumn-editable-cell-input-wrapper {
+  display: inline;
+}
+.hk-editGridTreeColumn-editable-cell-input {
+  padding: 4px 8px 4px 11px;
+  display: inline;
+}
+.hk-editGridTreeColumn-editable-cell-text-wrapper {
+  padding: 6px 12px 6px 1px;
+  cursor: pointer;
+  display: inline;
+}
+.hk-editGridTreeColumn-editable-cell-text-wrapper:hover {
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+  padding: 5px 11px 5px 0px;
+}
+.hk-editGridTreeColumn-editable-cell-text-wrapper-none {
+  padding: 16px 12px 17px 1px;
+  cursor: pointer;
+  display: inline;
+}
+.hk-editGridTreeColumn-editable-cell-text-wrapper-none:hover {
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+  padding: 15px 11px 16px 0px;
+}
+.hk-editGridTreeColumn-editable-cell-text-wrapper-select {
+  padding: 6px 40px 6px 1px;
+  cursor: pointer;
+  display: inline;
+}
+.hk-editGridTreeColumn-editable-cell-text-wrapper-select:hover {
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+  padding: 5px 39px 5px 0px;
+}
+.hk-editGridTreeColumn-editable-add-btn {
+  margin-bottom: 8px;
+}
+.hk-editGridTreeColumn-center {
+  text-align: center;
+}
+.hk-form-form .ant-form-item {
+  margin-right: 0px;
+}
+.hk-FixedColForm-fixedColForm .ant-form-item-with-help {
+  margin-bottom: 0px;
+}
+.hk-HorizontalContainer-horizontalContainer > * {
+  display: inline-block;
+  margin-right: 8px;
+}
+.hk-HorizontalContainer-horizontalContainer.hk-HorizontalContainer-center {
+  text-align: center;
+}
+.hk-HorizontalContainer-horizontalContainer.hk-HorizontalContainer-left {
+  text-align: left;
+}
+.hk-HorizontalContainer-horizontalContainer.hk-HorizontalContainer-right {
+  text-align: right;
+}
+.hk-BrowseSelect-BrowseSelect {
+  background: white;
+  color: rgba(0, 0, 0, 0.65);
+}
+.ant-upload {
+  width: 100%;
+}
+.hk-confirmWithCloseButton-confirmWithCloseButton .ant-modal-header {
+  padding: 0px;
+}
+.hk-confirmWithCloseButton-confirmWithCloseButton .ant-modal-title {
+  display: none;
+}
+.hk-confirmWithCloseButton-confirmWithCloseButton .ant-modal-body {
+  padding: 32px 32px 24px;
+}
+.hk-confirmWithCloseButton-confirmWithCloseButton .ant-modal-confirm-body > .anticon {
+  color: #faad14;
+}
+.hk-confirmWithCloseButton-confirmWithCloseButton .ant-modal-confirm-btns {
+  float: right;
+  margin-top: 24px;
+}
+.hk-confirmWithCloseButton-confirmWithCloseButton .ant-modal-confirm-btns button + button {
+  margin-bottom: 0;
+  margin-left: 8px;
+}
+.hk-ol-ol-box {
+  box-sizing: border-box;
+  border-radius: 2px;
+  border: 2px solid #00f;
+}
+.hk-ol-ol-mouse-position {
+  top: 8px;
+  right: 8px;
+  position: absolute;
+}
+.hk-ol-ol-scale-line {
+  background: rgba(0, 60, 136, 0.3);
+  border-radius: 4px;
+  bottom: 8px;
+  left: 8px;
+  padding: 2px;
+  position: absolute;
+}
+.hk-ol-ol-scale-line-inner {
+  border: 1px solid #eee;
+  border-top: none;
+  color: #eee;
+  font-size: 10px;
+  text-align: center;
+  margin: 1px;
+  will-change: contents, width;
+}
+.hk-ol-ol-overlay-container {
+  will-change: left, right, top, bottom;
+}
+.hk-ol-ol-unsupported {
+  display: none;
+}
+.hk-ol-ol-unselectable,
+.hk-ol-ol-viewport {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+.hk-ol-ol-selectable {
+  -webkit-touch-callout: default;
+  -webkit-user-select: text;
+  -moz-user-select: text;
+  -ms-user-select: text;
+  user-select: text;
+}
+.hk-ol-ol-grabbing {
+  cursor: -webkit-grabbing;
+  cursor: -moz-grabbing;
+  cursor: grabbing;
+}
+.hk-ol-ol-grab {
+  cursor: move;
+  cursor: -webkit-grab;
+  cursor: -moz-grab;
+  cursor: grab;
+}
+.hk-ol-ol-control {
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 4px;
+  padding: 2px;
+}
+.hk-ol-ol-control:hover {
+  background-color: rgba(255, 255, 255, 0.6);
+}
+.hk-ol-ol-zoom {
+  top: .5em;
+  left: 0.5em;
+}
+.hk-ol-ol-rotate {
+  top: .5em;
+  right: .5em;
+  transition: opacity 0.25s linear, visibility 0s linear;
+}
+.hk-ol-ol-rotate.hk-ol-ol-hidden {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.25s linear, visibility 0s linear 0.25s;
+}
+.hk-ol-ol-zoom-extent {
+  top: 4.643em;
+  left: 0.5em;
+}
+.hk-ol-ol-full-screen {
+  right: .5em;
+  top: 0.5em;
+}
+@media print {
+  .hk-ol-ol-control {
+    display: none;
+  }
+}
+.hk-ol-ol-control button {
+  display: block;
+  margin: 1px;
+  padding: 0;
+  color: #fff;
+  font-size: 1.14em;
+  font-weight: 700;
+  text-decoration: none;
+  text-align: center;
+  height: 1.375em;
+  width: 1.375em;
+  line-height: .4em;
+  background-color: rgba(0, 60, 136, 0.5);
+  border: none;
+  border-radius: 2px;
+}
+.hk-ol-ol-control button::-moz-focus-inner {
+  border: none;
+  padding: 0;
+}
+.hk-ol-ol-zoom-extent button {
+  line-height: 1.4em;
+}
+.hk-ol-ol-compass {
+  display: block;
+  font-weight: 400;
+  font-size: 1.2em;
+  will-change: transform;
+}
+.hk-ol-ol-touch .hk-ol-ol-control button {
+  font-size: 1.5em;
+}
+.hk-ol-ol-touch .hk-ol-ol-zoom-extent {
+  top: 5.5em;
+}
+.hk-ol-ol-control button:focus,
+.hk-ol-ol-control button:hover {
+  text-decoration: none;
+  background-color: rgba(0, 60, 136, 0.7);
+}
+.hk-ol-ol-zoom .hk-ol-ol-zoom-in {
+  border-radius: 2px 2px 0 0;
+}
+.hk-ol-ol-zoom .hk-ol-ol-zoom-out {
+  border-radius: 0 0 2px 2px;
+}
+.hk-ol-ol-attribution {
+  text-align: right;
+  bottom: .5em;
+  right: .5em;
+  max-width: calc(98.7%);
+}
+.hk-ol-ol-attribution ul {
+  margin: 0;
+  padding: 0 .5em;
+  font-size: .7rem;
+  line-height: 1.375em;
+  color: #000;
+  text-shadow: 0 0 2px #fff;
+}
+.hk-ol-ol-attribution li {
+  display: inline;
+  list-style: none;
+  line-height: inherit;
+}
+.hk-ol-ol-attribution li:not(:last-child):after {
+  content: " ";
+}
+.hk-ol-ol-attribution img {
+  max-height: 2em;
+  max-width: inherit;
+  vertical-align: middle;
+}
+.hk-ol-ol-attribution button,
+.hk-ol-ol-attribution ul {
+  display: inline-block;
+}
+.hk-ol-ol-attribution.hk-ol-ol-collapsed ul {
+  display: none;
+}
+.hk-ol-ol-attribution:not(.hk-ol-ol-collapsed) {
+  background: rgba(255, 255, 255, 0.8);
+}
+.hk-ol-ol-attribution.hk-ol-ol-uncollapsible {
+  bottom: 0;
+  right: 0;
+  border-radius: 4px 0 0;
+  height: 1.1em;
+  line-height: 1em;
+}
+.hk-ol-ol-attribution.hk-ol-ol-uncollapsible img {
+  margin-top: -0.2em;
+  max-height: 1.6em;
+}
+.hk-ol-ol-attribution.hk-ol-ol-uncollapsible button {
+  display: none;
+}
+.hk-ol-ol-zoomslider {
+  top: 4.5em;
+  left: .5em;
+  height: 200px;
+}
+.hk-ol-ol-zoomslider button {
+  position: relative;
+  height: 10px;
+}
+.hk-ol-ol-touch .hk-ol-ol-zoomslider {
+  top: 5.5em;
+}
+.hk-ol-ol-overviewmap {
+  left: .5em;
+  bottom: 0.5em;
+}
+.hk-ol-ol-overviewmap.hk-ol-ol-uncollapsible {
+  bottom: 0;
+  left: 0;
+  border-radius: 0 4px 0 0;
+}
+.hk-ol-ol-overviewmap .hk-ol-ol-overviewmap-map,
+.hk-ol-ol-overviewmap button {
+  display: inline-block;
+}
+.hk-ol-ol-overviewmap .hk-ol-ol-overviewmap-map {
+  border: 1px solid #7b98bc;
+  height: 150px;
+  margin: 2px;
+  width: 150px;
+}
+.hk-ol-ol-overviewmap:not(.hk-ol-ol-collapsed) button {
+  bottom: 1px;
+  left: 2px;
+  position: absolute;
+}
+.hk-ol-ol-overviewmap.hk-ol-ol-collapsed .hk-ol-ol-overviewmap-map,
+.hk-ol-ol-overviewmap.hk-ol-ol-uncollapsible button {
+  display: none;
+}
+.hk-ol-ol-overviewmap:not(.hk-ol-ol-collapsed) {
+  background: rgba(255, 255, 255, 0.8);
+}
+.hk-ol-ol-overviewmap-box {
+  border: 2px dotted rgba(0, 60, 136, 0.7);
+}
+.hk-ol-ol-overviewmap .hk-ol-ol-overviewmap-box:hover {
+  cursor: move;
+}
+
+/*根结点*/
+.hk-composite-image-ImageSpan-root {
+  display: inline-block;
+  text-align: center;
+}
+/*图片样式*/
+/*文字样式*/
+.hk-composite-image-ImageSpan-content {
+  display: inline-block;
+  width: 100%;
+}
+.kkk {
+  color: red;
+}
+hr {
+  margin: 0px;
+}
+/*展开时的位置样式*/
+.hk-siderMenu-trigger {
+  float: right;
+  font-size: 18px;
+  line-height: 64px;
+  padding-right: 10px;
+  cursor: pointer;
+  transition: color .3s;
+}
+.hk-siderMenu-trigger:hover {
+  color: #1890ff;
+}
+/*收缩时的位置样式*/
+.hk-siderMenu-trigger1 {
+  font-size: 18px;
+  line-height: 64px;
+  padding: 0 32px;
+  cursor: pointer;
+  transition: color .3s;
+}
+.hk-siderMenu-trigger1:hover {
+  color: #1890ff;
+}
+.hk-siderMenu-title1 {
+  display: none;
+}
+.hk-siderMenu-title {
+  line-height: 64px;
+  font-size: 18px;
+  padding-left: 24px;
+}
+
+/*# sourceMappingURL=base.css.map*/

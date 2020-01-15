@@ -1,0 +1,38 @@
+{
+    "data": [
+        {
+            "children": [
+                {
+                    "id": "com.sunsheen.jfids.web.component.reactRow",
+                    "text": "React行容器",
+                    "url": "./comp/ReactRow.js"
+                },
+                {
+                    "id": "com.sunsheen.jfids.web.component.reactCol",
+                    "text": "React列容器",
+                    "url": "./comp/ReactCol.js"
+                }
+            ],
+            "id": "com.sunsheen.jfids.web.component.container",
+            "text": "容器",
+            "url": ""
+        },
+        {
+            "children": [
+                {
+                    "id": "com.sunsheen.jfids.web.component.button",
+                    "text": "按钮",
+                    "url": "./comp/button.js"
+                },
+                {
+                    "id": "com.sunsheen.jfids.web.component.span",
+                    "text": "文本",
+                    "url": "./comp/span.js"
+                }
+            ],
+            "id": "comp",
+            "text": "基础组件",
+            "url": ""
+        }
+    ]
+}
